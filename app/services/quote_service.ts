@@ -38,6 +38,6 @@ export default class QuotesService {
   }
 
   getQuoteById(id: number) {
-    return this.quotes.find((q) => q.id === id)
+    return this.quotes.find((quote) => quote.id === id)
   }
 }
